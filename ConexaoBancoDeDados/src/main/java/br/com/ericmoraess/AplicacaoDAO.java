@@ -17,7 +17,7 @@ public class AplicacaoDAO {
 		while(itr.hasNext()) {
 			System.out.println(itr.next().getRazao_social());
 			System.out.println(itr.next().getCnpj());
-			System.out.println(itr.next().getCapacidade());
+			System.out.println(itr.next().getCapacidade()) ;
 		}	
 	}
 }
